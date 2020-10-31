@@ -13,7 +13,7 @@ app.post('/subscribe', async (req, res) => {
     return res.json({ success: false, msg: 'Please select captcha' });
 
 //Secret Key
-const secretKey = '6Le3S90ZAAAAAOJHLmJrVfSmWkroRzZeUuAl-T8s';
+const secretKey = 'XXXX';
 
 // Verify URL
 const query = stringify({
